@@ -1,0 +1,36 @@
+/* стили для input */
+
+.sending_line {
+  background-color: #a3a28d;
+  border-radius: 0 0 7px 7px;
+}
+.sending_line_input {
+  padding: 0;
+  width: 81.4%;
+  height: 28px;
+  border-radius: 0 0 0 7px;
+  border: 2px solid #a3a28d;
+  border-top: 3px solid #a3a28d;
+  padding-left: 8px;
+}
+.sending_line_input:focus,
+.sending_line_input:focus-visible {
+  outline: none;
+}
+
+button {
+  height: 32px;
+  width: 16.9%;
+  border-radius: 0 0 7px 0;
+  border: 2px solid #a3a28d;
+}
+button:hover {
+  background-color: #439ba7;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .sending_line_input {
+    width: 70%;
+  }
+}

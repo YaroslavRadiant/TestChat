@@ -1,0 +1,21 @@
+.massage_row {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 5px;
+  padding: 5px 0;
+}
+.massage_user_row {
+  display: flex;
+  justify-content: right;
+}
+.massage_box {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #439ba7;
+  color: #fff;
+}
+.massage_user {
+  border: 1px solid #439ba7;
+}
